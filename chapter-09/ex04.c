@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int day_of_year(int month, int day, int year) {
-
     int num_days[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
     int day_count = 0;
 
